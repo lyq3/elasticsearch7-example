@@ -6,3 +6,8 @@ es:
   client:
     connectNum: 10
     connectPerRoute: 50
+    connect_timeout_millis: 1000
+    socket_timeout_millis: 30000
+    connection_request_timeout_millis: 500
+    max_conn_per_route: 10
+    max_conn_total: 30

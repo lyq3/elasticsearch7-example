@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>elasticsearch7-springboot2</module>
+        <module>elasticsearch7-index</module>
+        <module>elasticsearch7-springboot2-start</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
