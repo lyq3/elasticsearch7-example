@@ -1,0 +1,8 @@
+server:
+  port: 8055
+
+es:
+  hosts: 192.168.72.128:9200,192.168.72.130:9200
+  client:
+    connectNum: 10
+    connectPerRoute: 50
