@@ -21,4 +21,10 @@ public class ProductIndexDaoTest extends BaseTest {
         String index = productIndexDao.createIndex(new Product());
         System.out.println(index);
     }
+
+    @Test
+    public void testCreateIndexAsyn(){
+        String res = productIndexDao.createIndexAsyn(new Product());
+        System.out.println(res);
+    }
 }
