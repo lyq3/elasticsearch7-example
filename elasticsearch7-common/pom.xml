@@ -9,14 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>elasticsearch7-index</artifactId>
+    <artifactId>elasticsearch7-common\</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.lyq3</groupId>
-            <artifactId>elasticsearch7-common\</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
 
 </project>
