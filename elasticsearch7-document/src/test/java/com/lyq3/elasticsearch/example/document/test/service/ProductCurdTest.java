@@ -20,4 +20,9 @@ public class ProductCurdTest extends BaseTest {
     public void testAdd() throws IOException {
         productCurd.add();
     }
+
+    @Test
+    public void testBatchAdd() throws IOException {
+        productCurd.addBatch();
+    }
 }
