@@ -1,4 +1,4 @@
-package com.lyq3.elasticsearch.example.index.entity;
+package com.lyq3.elasticsearch.example.common.entity.po;
 
 import java.util.Date;
 

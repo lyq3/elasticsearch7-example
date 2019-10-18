@@ -2,7 +2,7 @@ package com.lyq3.elasticsearch.example.index.dao;
 
 import com.alibaba.fastjson.JSON;
 import com.lyq3.elasticsearch.example.common.util.MappingUtils;
-import com.lyq3.elasticsearch.example.index.entity.Product;
+import com.lyq3.elasticsearch.example.common.entity.po.Product;
 import org.elasticsearch.action.ActionListener;
 import org.elasticsearch.action.support.ActiveShardCount;
 import org.elasticsearch.client.RequestOptions;

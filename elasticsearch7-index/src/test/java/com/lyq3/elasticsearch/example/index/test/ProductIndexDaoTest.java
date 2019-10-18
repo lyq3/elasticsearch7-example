@@ -1,7 +1,7 @@
 package com.lyq3.elasticsearch.example.index.test;
 
 import com.lyq3.elasticsearch.example.index.dao.ProductIndexDao;
-import com.lyq3.elasticsearch.example.index.entity.Product;
+import com.lyq3.elasticsearch.example.common.entity.po.Product;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
